@@ -1,0 +1,182 @@
+html,body,div,p,a,span,img,ol,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+body{
+    font-size: 12px;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+/* 导航栏 */
+.top{
+    width: 100%;
+    height: 35px;
+    background:url(../images/line.jpg); 
+}
+.up{
+    width: 1200px;
+    height: 173px;
+    margin: 0 auto;
+}
+.up h1{
+    width: 287px;
+    height: 132px;
+    padding-top: 6px;
+    float: left;
+    margin-right: 103px;
+    margin-left: 37px;
+}
+.up ul{
+    width: 772px;
+    height: 46px;
+    float:left;
+    margin-top:84px; 
+}
+.up ul li{
+    background: url(../images/line2.jpg) right;
+    background-repeat: no-repeat;
+    background-size: 2px 46px;
+    text-align: center;
+    float: left;
+}
+.up ul li p{
+    font-size: 14px;
+    font-family: PMingLiU;
+    color: #cfc9cf;
+}
+.up ul li a{
+    display: block;
+    width: 110px;
+    height: 46px;
+    font-size: 18px;
+    color: #3a1616;
+    font-family: 华文宋体;
+}
+.up ul .teshu01 a{
+    color: #ffefd0;
+    background-color: #719b83;
+}
+.up ul .teshu01 p{
+    color: #cfc0ad;
+}
+.up ul a:hover{
+    color: #ffefd0;
+    background-color: #719b83;
+}
+.up ul a:hover p{
+    color: #cfc0ad;
+}
+.up ul .teshu{
+     background: url(none);
+}
+/* 上面是导航栏部分 */
+.banner h1{
+    width: 100%;
+    height: 500px;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+/* 上面是banner图部分 */
+/* 内容- */
+.content{
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    height: 435px;
+}
+.content p{
+    margin: auto;
+    width: 1000px;
+    margin-left: 120px;
+}
+.content p img{
+    width: 216px;
+    height: 320px;
+}
+.content p a{
+    display: block;
+    width: 216px;
+    margin-right: 33px;
+    height: 320px;
+    float: left;
+}
+/* 底部信息部分 */
+.down{
+    width: 100%;
+    background-color: #eaeaea;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.downcenter{
+    width: 1200px;
+    height: 88.8px;
+    color: #333;
+    padding-top: 26px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.downcenter ul {
+    width: 537px;
+    height: 22.4px;
+    margin: auto;
+}
+.downcenter ul li{
+   padding-left: 10px;
+   padding-right: 10px; 
+   float: left;
+   background: url(../images/line05.jpg) right no-repeat;
+}
+.downcenter ul li a{
+     color: #4d4d4d;
+     font-size: 13px;
+    font-family: 微软雅黑;
+}
+.downcenter ul li a:hover{
+    color: #719b83;
+}
+.downcenter ul .teshu02{
+    background: url(none);
+}
+.downcenter p{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.bgplayerButton{
+    background: url(../images/sound_0_off.gif?v=201711250202) 0 0 no-repeat;
+}
+.bgplayerButton {
+    cursor: pointer;
+    width: 30px;
+    height: 12px;
+    line-height: 22px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.downcenter h1{
+        width: 120px;
+        height: 15px;
+        background-color: #14a3a2;
+        margin: 10px auto;
+        color: #fff;
+        font-size: 14px; 
+        cursor: default;
+}

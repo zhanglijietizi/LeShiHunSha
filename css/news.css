@@ -1,0 +1,343 @@
+html,body,div,p,a,span,img,ol,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+body{
+    font-size: 12px;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clear:after{
+
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+/* 导航栏 */
+.top{
+    width: 100%;
+    height: 35px;
+    background:url(../images/line.jpg); 
+}
+.up{
+    width: 1200px;
+    height: 173px;
+    margin: 0 auto;
+}
+.up h1{
+    width: 287px;
+    height: 132px;
+    padding-top: 6px;
+    float: left;
+    margin-right: 103px;
+    margin-left: 37px;
+}
+.up ul{
+    width: 772px;
+    height: 46px;
+    float:left;
+    margin-top:84px; 
+}
+.up ul li{
+    background: url(../images/line2.jpg) right;
+    background-repeat: no-repeat;
+    background-size: 2px 46px;
+    text-align: center;
+    float: left;
+}
+.up ul li p{
+    font-size: 14px;
+    font-family: PMingLiU;
+    color: #cfc9cf;
+}
+.up ul li a{
+    display: block;
+    width: 110px;
+    height: 46px;
+    font-size: 18px;
+    color: #3a1616;
+    font-family: 华文宋体;
+}
+.up ul .teshu01 a{
+    color: #ffefd0;
+    background-color: #719b83;
+}
+.up ul .teshu01 p{
+    color: #cfc0ad;
+}
+.up ul a:hover{
+    color: #ffefd0;
+    background-color: #719b83;
+}
+.up ul a:hover p{
+    color: #cfc0ad;
+}
+.up ul .teshu{
+     background: url(none);
+}
+/* 上面是导航栏部分 */
+.banner h1{
+    width: 100%;
+    height: 500px;
+}
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+/* 上面是banner图部分 */
+/* 内容部分 */
+.content{
+    width: 1200px;
+    margin: 20px auto;
+    height: 630px;
+}
+.content-left{
+    width: 200px;
+    height: 580px;
+    float: left;
+}
+.content-left ul li{
+    height: 31px;
+    border-bottom: 1px solid #706699;
+}
+.content-left ul li a{
+    display: block;
+    height: 31px;
+    color: #333;
+    font-size: 12px;
+    padding-left: 10px;
+    line-height: 31px;
+}
+.content-left .teshu03 a{
+    background-color: #719b83;
+    color: #fff;
+}
+.content-left a:hover{
+     background-color: #719b83;
+    color: #fff;
+}
+.content-right{
+    width: 980px;
+    height: 600px;
+    float: right;
+}
+.content-right h1{
+    border-bottom: 2px solid #adadad;
+}
+.content-right h1 span{
+    font-family: "微软雅黑","宋体";
+    font-size: 14px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #2b8397;
+    color: #282828;
+    line-height: 30px;
+}
+.content-right h1 em a{
+        color: #999;
+    font-size: 12px;
+    font-family: "宋体","微软雅黑";
+    font-weight: normal;
+    font-style: normal;
+}
+.content-right h1 em{
+    float: right;
+    margin-right: 10px;
+}
+.content-right p a{
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    font-family: "宋体","微软雅黑";
+    color: #666; 
+    width: 970px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.content-right p a b{
+    width: 660px;
+    text-decoration: none;
+    height: 29px;
+    line-height: 29px;
+    outline: 0;
+    padding-left: 10px;
+    display: block;
+    font-size: 12px;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    float: left;
+}
+.content-right p a span{
+    padding-right: 18px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: 150px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #a7a7a7;
+}
+.content-right p a em{
+    font-style: normal;
+    font-size: 12px;
+    float: right;
+    padding-right: 10px;
+    line-height: 29px;
+}
+.content-right p a:hover{
+    background-color: #2b8397;
+    color: #fff;
+}
+.content-right p a:hover span{
+    color: #fff;
+}
+.content-right h4{
+    font-weight: normal;
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.content-right h4 span{
+    padding-left: 20px;
+    padding-top: 7px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.content-right h4 a{
+    display: block;
+    float: left;
+    border: 1px solid #d1d1d1;
+    margin-top: 14px;
+    padding:0 3px;
+    margin-left: 20px;
+    color: #666;
+}
+.content-right ul li{
+    border-bottom: 1px dashed #dddddd;
+}
+.content-right ul li a{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    font-family:"微软雅黑";
+    color: #666; 
+    width: 970px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.content-right ul a b{
+    width: 660px;
+    text-decoration: none;
+    height: 38px;
+    line-height: 38px;
+    outline: 0;
+    padding-left: 10px;
+    display: block;
+    font-size: 14px;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    float: left;
+}
+.content-right ul a span{
+    padding-right: 18px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: 120px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #a7a7a7;
+}
+.content-right ul a em{
+    font-style: normal;
+    font-size: 14px;
+    float: right;
+    padding-right: 10px;
+    line-height: 38px;
+}
+.content-right ul a:hover{
+    color: #719b83;
+}
+.content-right ul a:hover span{
+    color: #719b83;
+}
+.teshu04 p{
+    border-bottom: 1px dashed #dbdbdb;
+}
+/* 底部信息部分 */
+.down{
+    width: 100%;
+    background-color: #eaeaea;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.downcenter{
+    width: 1200px;
+    height: 88.8px;
+    color: #333;
+    padding-top: 26px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.downcenter ul {
+    width: 537px;
+    height: 22.4px;
+    margin: auto;
+}
+.downcenter ul li{
+   padding-left: 10px;
+   padding-right: 10px; 
+   float: left;
+   background: url(../images/line05.jpg) right no-repeat;
+}
+.downcenter ul li a{
+     color: #4d4d4d;
+     font-size: 13px;
+    font-family: 微软雅黑;
+}
+.downcenter ul li a:hover{
+    color: #719b83;
+}
+.downcenter ul .teshu02{
+    background: url(none);
+}
+.downcenter p{
+    font-size: 13px;
+    font-family: 微软雅黑;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.bgplayerButton{
+    background: url(../images/sound_0_off.gif?v=201711250202) 0 0 no-repeat;
+}
+.bgplayerButton {
+    cursor: pointer;
+    width: 30px;
+    height: 12px;
+    line-height: 22px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.downcenter h1{
+        width: 120px;
+        height: 15px;
+        background-color: #14a3a2;
+        margin: 10px auto;
+        color: #fff;
+        font-size: 14px; 
+        cursor: default;
+}
